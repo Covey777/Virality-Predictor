@@ -1,0 +1,81 @@
+{
+  "profiles": {
+    "Casual Scrollers": {
+      "comment_share": 4.983,
+      "share_share": 4.973,
+      "avg_watch_pct": 32.722,
+      "share_of_posts_%": 35.22,
+      "avg_engagement_%": 7.573,
+      "avg_views": 39883.746
+    },
+    "Conversation Starters": {
+      "comment_share": 23.189,
+      "share_share": 7.893,
+      "avg_watch_pct": 53.119,
+      "share_of_posts_%": 23.42,
+      "avg_engagement_%": 7.652,
+      "avg_views": 37261.833
+    },
+    "Viral Sharers": {
+      "comment_share": 7.85,
+      "share_share": 32.609,
+      "avg_watch_pct": 58.131,
+      "share_of_posts_%": 14.24,
+      "avg_engagement_%": 7.618,
+      "avg_views": 41011.507
+    },
+    "Loyal Fans": {
+      "comment_share": 11.589,
+      "share_share": 6.101,
+      "avg_watch_pct": 74.989,
+      "share_of_posts_%": 27.12,
+      "avg_engagement_%": 7.66,
+      "avg_views": 41479.577
+    }
+  },
+  "pca_explained_variance": [
+    0.43400758848286947,
+    0.3574045174722981
+  ],
+  "silhouette": 0.5073227640824601,
+  "centroid_pca_xy": {
+    "Viral Sharers": [
+      0.22599278379381407,
+      2.2056817933284556
+    ],
+    "Conversation Starters": [
+      0.9550413268115838,
+      -0.7339919663770711
+    ],
+    "Loyal Fans": [
+      0.8154671253279444,
+      -0.11410304249016354
+    ],
+    "Casual Scrollers": [
+      -1.3541077669291324,
+      -0.31681829330924505
+    ]
+  },
+  "segment_info": {
+    "Casual Scrollers": {
+      "colour": "#94a3b8",
+      "description": "Watch briefly and leave a quick like. Wide reach, shallow involvement.",
+      "tip": "Hook viewers in the first 2 seconds and add a clear call-to-action to deepen involvement."
+    },
+    "Conversation Starters": {
+      "colour": "#38bdf8",
+      "description": "Unusually talkative audience: many comments compared with likes and shares.",
+      "tip": "Ask questions or run polls in the caption, and reply to comments early to keep the thread alive."
+    },
+    "Viral Sharers": {
+      "colour": "#f472b6",
+      "description": "Audience that forwards the post to friends. Strong spread beyond your followers.",
+      "tip": "Make content relatable or useful enough to send to a friend, and add 'share this with...' prompts."
+    },
+    "Loyal Fans": {
+      "colour": "#a78bfa",
+      "description": "Watch most of the video and engage steadily. Deep attention, dependable support.",
+      "tip": "Keep serving this audience with series-style content; they respond to consistency."
+    }
+  }
+}
