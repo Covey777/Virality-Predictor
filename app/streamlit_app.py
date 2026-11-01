@@ -1,15 +1,3 @@
-"""
-Content & Audience Predictor - Streamlit dashboard
-
-Run from the project root:
-    streamlit run app/streamlit_app.py
-
-Visual language follows the reference reel: paper background, boxed white panels with thin dark
-rules, numbered section labels, a grey action block, cobalt / orange / grey dots and a big-headline
-verdict strip. All ML happens in src/ (inference.py, segmentation.py, report.py); this file only draws.
-
-Educational project. It does not reproduce or predict Instagram's real algorithm.
-"""
 import sys
 from datetime import datetime
 from pathlib import Path
